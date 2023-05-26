@@ -2,5 +2,5 @@
 
 Code for Sunshine Effects on Worker Productivity
 
-Code structure: all code is in the jupyter notebook. Each regression is commented by headers.
+Code structure: All of the code is in the IPython noteboon- the various components of the scripts are commented by headers. 
 
