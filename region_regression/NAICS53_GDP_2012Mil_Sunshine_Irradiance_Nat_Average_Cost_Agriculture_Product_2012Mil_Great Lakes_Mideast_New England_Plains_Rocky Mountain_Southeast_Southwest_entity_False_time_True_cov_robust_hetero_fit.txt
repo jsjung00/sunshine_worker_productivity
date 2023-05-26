@@ -1,0 +1,37 @@
+                      PanelOLS Estimation Summary                      
+Dep. Variable:   ,NAICS53_GDP_2012Mil,  R-squared:           ,0.7362   
+Estimator:       ,PanelOLS           ,  R-squared (Between): ,0.7705   
+No. Observations:,539                ,  R-squared (Within):  ,-1.7488  
+Date:            ,Thu, May 25 2023   ,  R-squared (Overall): ,0.7326   
+Time:            ,20:43:01           ,  Log-likelihood       ,-6219.3  
+Cov. Estimator:  ,Unadjusted         ,                       ,         
+                 ,                   ,  F-statistic:         ,144.58   
+Entities:        ,49                 ,  P-value              ,0.0000   
+Avg Obs:         ,11.000             ,  Distribution:        ,F(10,518)
+Min Obs:         ,11.000             ,                       ,         
+Max Obs:         ,11.000             ,  F-statistic (robust):,144.58   
+                 ,                   ,  P-value              ,0.0000   
+Time periods:    ,11                 ,  Distribution:        ,F(10,518)
+Avg Obs:         ,49.000             ,                       ,         
+Min Obs:         ,49.000             ,                       ,         
+Max Obs:         ,49.000             ,                       ,         
+                 ,                   ,                       ,         
+                                 Parameter Estimates                                  
+                           ,Parameter ,Std. Err., T-stat,P-value, Lower CI , Upper CI 
+const                      ,-3.936e+04,1.563e+04,-2.5176,0.0121 ,-7.007e+04,-8644.9   
+Sunshine_Irradiance        ,9.3735    ,3.3960   ,2.7602 ,0.0060 ,2.7019    ,16.045    
+Nat_Average_Cost           ,0.3136    ,0.1322   ,2.3715 ,0.0181 ,0.0538    ,0.5734    
+Agriculture_Product_2012Mil,10.036    ,0.3258   ,30.807 ,0.0000 ,9.3956    ,10.676    
+Great Lakes                ,1.299e+04 ,5642.8   ,2.3019 ,0.0217 ,1903.8    ,2.407e+04 
+Mideast                    ,5.087e+04 ,5647.0   ,9.0090 ,0.0000 ,3.978e+04 ,6.197e+04 
+New England                ,1.979e+04 ,6016.3   ,3.2897 ,0.0011 ,7972.8    ,3.161e+04 
+Plains                     ,-3.593e+04,5044.2   ,-7.1226,0.0000 ,-4.584e+04,-2.602e+04
+Rocky Mountain             ,-5946.1   ,5602.1   ,-1.0614,0.2890 ,-1.695e+04,5059.6    
+Southeast                  ,7042.2    ,4872.7   ,1.4452 ,0.1490 ,-2530.5   ,1.661e+04 
+Southwest                  ,-4133.8   ,6236.9   ,-0.6628,0.5078 ,-1.639e+04,8119.0    
+
+F-test for Poolability: 0.9458
+P-value: 0.4905
+Distribution: F(10,518)
+
+Included effects: Time

@@ -1,0 +1,19 @@
+                   IV-2SLS Estimation Summary                   
+Dep. Variable:   ,GDP_2012Mil     ,  R-squared:         ,0.3500 
+Estimator:       ,IV-2SLS         ,  Adj. R-squared:    ,0.3463 
+No. Observations:,539             ,  F-statistic:       ,143.87 
+Date:            ,Fri, May 26 2023,  P-value (F-stat)   ,0.0000 
+Time:            ,02:58:45        ,  Distribution:      ,chi2(3)
+Cov. Estimator:  ,robust          ,                     ,       
+                 ,                ,                     ,       
+                                 Parameter Estimates                                 
+                           ,Parameter ,Std. Err., T-stat,P-value, Lower CI , Upper CI
+const                      ,-2.858e+04,1.514e+05,-0.1888,0.8502 ,-3.252e+05,2.681e+05
+Nat_Average_Cost           ,-2.2948   ,1.3010   ,-1.7638,0.0778 ,-4.8448   ,0.2552   
+Agriculture_Product_2012Mil,51.000    ,4.4105   ,11.563 ,0.0000 ,42.356    ,59.645   
+Sunshine_Irradiance        ,42.006    ,35.684   ,1.1772 ,0.2391 ,-27.933   ,111.95   
+
+Endogenous: Sunshine_Irradiance
+Instruments: Cloud Cover
+Robust Covariance (Heteroskedastic)
+Debiased: False

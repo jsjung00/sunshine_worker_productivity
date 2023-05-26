@@ -1,0 +1,32 @@
+                      PanelOLS Estimation Summary                      
+Dep. Variable:   ,NAICS22_GDP_2012Mil,  R-squared:           ,0.6929   
+Estimator:       ,PanelOLS           ,  R-squared (Between): ,0.7305   
+No. Observations:,539                ,  R-squared (Within):  ,-2.1529  
+Date:            ,Thu, May 25 2023   ,  R-squared (Overall): ,0.6929   
+Time:            ,20:42:21           ,  Log-likelihood       ,-5085.9  
+Cov. Estimator:  ,Unadjusted         ,                       ,         
+                 ,                   ,  F-statistic:         ,119.15   
+Entities:        ,49                 ,  P-value              ,0.0000   
+Avg Obs:         ,11.000             ,  Distribution:        ,F(10,528)
+Min Obs:         ,11.000             ,                       ,         
+Max Obs:         ,11.000             ,  F-statistic (robust):,119.15   
+                 ,                   ,  P-value              ,0.0000   
+Time periods:    ,11                 ,  Distribution:        ,F(10,528)
+Avg Obs:         ,49.000             ,                       ,         
+Min Obs:         ,49.000             ,                       ,         
+Max Obs:         ,49.000             ,                       ,         
+                 ,                   ,                       ,         
+                               Parameter Estimates                               
+                           ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+const                      ,-2780.4  ,1845.7   ,-1.5064,0.1326 ,-6406.2 ,845.53  
+Sunshine_Irradiance        ,0.4147   ,0.3995   ,1.0381 ,0.2997 ,-0.3701 ,1.1995  
+Nat_Average_Cost           ,0.0459   ,0.0157   ,2.9207 ,0.0036 ,0.0150  ,0.0768  
+Agriculture_Product_2012Mil,1.0888   ,0.0393   ,27.733 ,0.0000 ,1.0117  ,1.1659  
+Great Lakes                ,4102.5   ,680.88   ,6.0253 ,0.0000 ,2765.0  ,5440.1  
+Mideast                    ,6882.3   ,682.18   ,10.089 ,0.0000 ,5542.2  ,8222.4  
+New England                ,2913.6   ,725.64   ,4.0152 ,0.0001 ,1488.1  ,4339.1  
+Plains                     ,-2305.4  ,609.51   ,-3.7823,0.0002 ,-3502.7 ,-1108.0 
+Rocky Mountain             ,570.86   ,677.29   ,0.8429 ,0.3997 ,-759.66 ,1901.4  
+Southeast                  ,3019.9   ,589.11   ,5.1261 ,0.0000 ,1862.6  ,4177.2  
+Southwest                  ,4582.3   ,749.83   ,6.1111 ,0.0000 ,3109.3  ,6055.3  
+

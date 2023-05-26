@@ -1,0 +1,28 @@
+                     PanelOLS Estimation Summary                      
+Dep. Variable:   ,NAICS22_GDP_2012Mil,  R-squared:           ,0.0368  
+Estimator:       ,PanelOLS           ,  R-squared (Between): ,0.0377  
+No. Observations:,539                ,  R-squared (Within):  ,-0.0715 
+Date:            ,Fri, May 12 2023   ,  R-squared (Overall): ,0.0363  
+Time:            ,20:39:54           ,  Log-likelihood       ,-5392.4 
+Cov. Estimator:  ,Unadjusted         ,                       ,        
+                 ,                   ,  F-statistic:         ,20.134  
+Entities:        ,49                 ,  P-value              ,0.0000  
+Avg Obs:         ,11.000             ,  Distribution:        ,F(1,527)
+Min Obs:         ,11.000             ,                       ,        
+Max Obs:         ,11.000             ,  F-statistic (robust):,20.134  
+                 ,                   ,  P-value              ,0.0000  
+Time periods:    ,11                 ,  Distribution:        ,F(1,527)
+Avg Obs:         ,49.000             ,                       ,        
+Min Obs:         ,49.000             ,                       ,        
+Max Obs:         ,49.000             ,                       ,        
+                 ,                   ,                       ,        
+                           Parameter Estimates                           
+                   ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+const              ,-3898.8  ,1980.4   ,-1.9686,0.0495 ,-7789.3 ,-8.2329 
+Sunshine_Irradiance,2.0617   ,0.4595   ,4.4871 ,0.0000 ,1.1591  ,2.9643  
+
+F-test for Poolability: 0.3510
+P-value: 0.9662
+Distribution: F(10,527)
+
+Included effects: Time

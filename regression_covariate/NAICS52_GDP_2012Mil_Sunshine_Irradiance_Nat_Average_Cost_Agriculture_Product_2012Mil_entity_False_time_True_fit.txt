@@ -1,0 +1,30 @@
+                     PanelOLS Estimation Summary                      
+Dep. Variable:   ,NAICS52_GDP_2012Mil,  R-squared:           ,0.2077  
+Estimator:       ,PanelOLS           ,  R-squared (Between): ,0.2233  
+No. Observations:,539                ,  R-squared (Within):  ,-0.4685 
+Date:            ,Fri, May 12 2023   ,  R-squared (Overall): ,0.2064  
+Time:            ,21:42:59           ,  Log-likelihood       ,-6277.9 
+Cov. Estimator:  ,Unadjusted         ,                       ,        
+                 ,                   ,  F-statistic:         ,45.867  
+Entities:        ,49                 ,  P-value              ,0.0000  
+Avg Obs:         ,11.000             ,  Distribution:        ,F(3,525)
+Min Obs:         ,11.000             ,                       ,        
+Max Obs:         ,11.000             ,  F-statistic (robust):,45.867  
+                 ,                   ,  P-value              ,0.0000  
+Time periods:    ,11                 ,  Distribution:        ,F(3,525)
+Avg Obs:         ,49.000             ,                       ,        
+Min Obs:         ,49.000             ,                       ,        
+Max Obs:         ,49.000             ,                       ,        
+                 ,                   ,                       ,        
+                               Parameter Estimates                                
+                           ,Parameter,Std. Err., T-stat,P-value,Lower CI, Upper CI
+const                      ,4.914e+04,1.035e+04,4.7463 ,0.0000 ,2.88e+04,6.949e+04
+Sunshine_Irradiance        ,-9.2685  ,2.4427   ,-3.7944,0.0002 ,-14.067 ,-4.4699  
+Nat_Average_Cost           ,0.3341   ,0.1449   ,2.3060 ,0.0215 ,0.0495  ,0.6188   
+Agriculture_Product_2012Mil,3.4781   ,0.3051   ,11.400 ,0.0000 ,2.8787  ,4.0774   
+
+F-test for Poolability: 0.2252
+P-value: 0.9939
+Distribution: F(10,525)
+
+Included effects: Time

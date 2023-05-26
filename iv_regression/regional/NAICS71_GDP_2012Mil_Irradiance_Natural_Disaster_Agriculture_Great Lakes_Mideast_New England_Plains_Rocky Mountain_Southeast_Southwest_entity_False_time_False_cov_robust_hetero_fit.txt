@@ -1,0 +1,26 @@
+                     IV-2SLS Estimation Summary                     
+Dep. Variable:   ,NAICS71_GDP_2012Mil,  R-squared:         ,0.5859  
+Estimator:       ,IV-2SLS            ,  Adj. R-squared:    ,0.5781  
+No. Observations:,539                ,  F-statistic:       ,445.43  
+Date:            ,Fri, May 26 2023   ,  P-value (F-stat)   ,0.0000  
+Time:            ,05:19:34           ,  Distribution:      ,chi2(10)
+Cov. Estimator:  ,robust             ,                     ,        
+                 ,                   ,                     ,        
+                               Parameter Estimates                               
+                           ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+const                      ,1935.4   ,1529.9   ,1.2651 ,0.2058 ,-1063.0 ,4933.9  
+Nat_Average_Cost           ,-0.0295  ,0.0154   ,-1.9180,0.0551 ,-0.0597 ,0.0006  
+Agriculture_Product_2012Mil,0.9845   ,0.0527   ,18.694 ,0.0000 ,0.8813  ,1.0878  
+Great Lakes                ,-1654.9  ,546.65   ,-3.0274,0.0025 ,-2726.3 ,-583.52 
+Mideast                    ,-296.39  ,388.56   ,-0.7628,0.4456 ,-1058.0 ,465.18  
+New England                ,2639.6   ,430.13   ,6.1367 ,0.0000 ,1796.5  ,3482.6  
+Plains                     ,-3122.5  ,424.50   ,-7.3557,0.0000 ,-3954.5 ,-2290.5 
+Rocky Mountain             ,1591.0   ,471.89   ,3.3716 ,0.0007 ,666.16  ,2515.9  
+Southeast                  ,611.53   ,579.47   ,1.0553 ,0.2913 ,-524.21 ,1747.3  
+Southwest                  ,345.23   ,642.70   ,0.5372 ,0.5912 ,-914.44 ,1604.9  
+Sunshine_Irradiance        ,-0.4419  ,0.3588   ,-1.2316,0.2181 ,-1.1451 ,0.2613  
+
+Endogenous: Sunshine_Irradiance
+Instruments: Cloud Cover
+Robust Covariance (Heteroskedastic)
+Debiased: False

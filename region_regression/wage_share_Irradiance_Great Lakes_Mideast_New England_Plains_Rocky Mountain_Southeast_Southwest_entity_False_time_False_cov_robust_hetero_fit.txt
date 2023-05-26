@@ -1,0 +1,30 @@
+                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,wage_share      ,  R-squared:           ,0.2335   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,0.2879   
+No. Observations:,1536            ,  R-squared (Within):  ,0.0014   
+Date:            ,Thu, May 25 2023,  R-squared (Overall): ,0.2335   
+Time:            ,20:32:40        ,  Log-likelihood       ,3099.7   
+Cov. Estimator:  ,Unadjusted      ,                       ,         
+                 ,                ,  F-statistic:         ,58.145   
+Entities:        ,49              ,  P-value              ,0.0000   
+Avg Obs:         ,31.347          ,  Distribution:        ,F(8,1527)
+Min Obs:         ,0.0000          ,                       ,         
+Max Obs:         ,32.000          ,  F-statistic (robust):,58.145   
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,32              ,  Distribution:        ,F(8,1527)
+Avg Obs:         ,48.000          ,                       ,         
+Min Obs:         ,48.000          ,                       ,         
+Max Obs:         ,48.000          ,                       ,         
+                 ,                ,                       ,         
+                          Parameter Estimates                           
+              ,Parameter ,Std. Err., T-stat,P-value, Lower CI , Upper CI
+const         ,0.3778    ,0.0035   ,106.68 ,0.0000 ,0.3709    ,0.3847   
+Irradiance    ,-2.625e-07,4.67e-07 ,-0.5621,0.5741 ,-1.179e-06,6.535e-07
+Great Lakes   ,0.0140    ,0.0038   ,3.6411 ,0.0003 ,0.0064    ,0.0215   
+Mideast       ,0.0264    ,0.0037   ,7.1539 ,0.0000 ,0.0191    ,0.0336   
+New England   ,0.0267    ,0.0037   ,7.2308 ,0.0000 ,0.0195    ,0.0340   
+Plains        ,-0.0114   ,0.0036   ,-3.1830,0.0015 ,-0.0184   ,-0.0044  
+Rocky Mountain,-0.0262   ,0.0038   ,-6.8457,0.0000 ,-0.0337   ,-0.0187  
+Southeast     ,-0.0057   ,0.0033   ,-1.7242,0.0849 ,-0.0123   ,0.0008   
+Southwest     ,-0.0151   ,0.0040   ,-3.7302,0.0002 ,-0.0230   ,-0.0072  
+

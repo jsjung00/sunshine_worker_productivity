@@ -1,0 +1,35 @@
+                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,wage_share      ,  R-squared:           ,0.2742   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,0.2884   
+No. Observations:,1536            ,  R-squared (Within):  ,-0.0185  
+Date:            ,Thu, May 25 2023,  R-squared (Overall): ,0.2301   
+Time:            ,20:33:25        ,  Log-likelihood       ,3264.8   
+Cov. Estimator:  ,Unadjusted      ,                       ,         
+                 ,                ,  F-statistic:         ,70.633   
+Entities:        ,49              ,  P-value              ,0.0000   
+Avg Obs:         ,31.347          ,  Distribution:        ,F(8,1496)
+Min Obs:         ,0.0000          ,                       ,         
+Max Obs:         ,32.000          ,  F-statistic (robust):,70.633   
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,32              ,  Distribution:        ,F(8,1496)
+Avg Obs:         ,48.000          ,                       ,         
+Min Obs:         ,48.000          ,                       ,         
+Max Obs:         ,48.000          ,                       ,         
+                 ,                ,                       ,         
+                         Parameter Estimates                          
+              ,Parameter,Std. Err., T-stat,P-value, Lower CI, Upper CI
+const         ,0.3724   ,0.0071   ,52.727 ,0.0000 ,0.3585   ,0.3862   
+Irradiance    ,9.459e-07,1.461e-06,0.6475 ,0.5174 ,-1.92e-06,3.812e-06
+Great Lakes   ,0.0147   ,0.0036   ,4.1042 ,0.0000 ,0.0077   ,0.0217   
+Mideast       ,0.0270   ,0.0034   ,7.8979 ,0.0000 ,0.0203   ,0.0337   
+New England   ,0.0276   ,0.0035   ,7.8791 ,0.0000 ,0.0207   ,0.0345   
+Plains        ,-0.0110  ,0.0033   ,-3.3535,0.0008 ,-0.0174  ,-0.0046  
+Rocky Mountain,-0.0262  ,0.0035   ,-7.5406,0.0000 ,-0.0330  ,-0.0194  
+Southeast     ,-0.0058  ,0.0030   ,-1.9060,0.0568 ,-0.0117  ,0.0002   
+Southwest     ,-0.0160  ,0.0038   ,-4.1889,0.0000 ,-0.0235  ,-0.0085  
+
+F-test for Poolability: 11.576
+P-value: 0.0000
+Distribution: F(31,1496)
+
+Included effects: Time

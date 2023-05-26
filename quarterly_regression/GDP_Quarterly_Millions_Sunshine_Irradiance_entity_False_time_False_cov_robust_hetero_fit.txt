@@ -1,0 +1,23 @@
+                        PanelOLS Estimation Summary                        
+Dep. Variable:   ,GDP_Quarterly_Millions,  R-squared:           ,0.0024    
+Estimator:       ,PanelOLS              ,  R-squared (Between): ,0.0044    
+No. Observations:,1536                  ,  R-squared (Within):  ,-0.8065   
+Date:            ,Thu, May 25 2023      ,  R-squared (Overall): ,0.0024    
+Time:            ,01:24:54              ,  Log-likelihood       ,-2.188e+04
+Cov. Estimator:  ,Unadjusted            ,                       ,          
+                 ,                      ,  F-statistic:         ,3.6136    
+Entities:        ,49                    ,  P-value              ,0.0575    
+Avg Obs:         ,31.347                ,  Distribution:        ,F(1,1534) 
+Min Obs:         ,0.0000                ,                       ,          
+Max Obs:         ,32.000                ,  F-statistic (robust):,3.6136    
+                 ,                      ,  P-value              ,0.0575    
+Time periods:    ,32                    ,  Distribution:        ,F(1,1534) 
+Avg Obs:         ,48.000                ,                       ,          
+Min Obs:         ,48.000                ,                       ,          
+Max Obs:         ,48.000                ,                       ,          
+                 ,                      ,                       ,          
+                           Parameter Estimates                            
+                   ,Parameter,Std. Err.,T-stat,P-value, Lower CI, Upper CI
+const              ,2.728e+05,2.453e+04,11.120,0.0000 ,2.247e+05,3.209e+05
+Sunshine_Irradiance,9.9918   ,5.2562   ,1.9009,0.0575 ,-0.3184  ,20.302   
+
